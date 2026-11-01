@@ -1,0 +1,27 @@
+{
+  "name": "den-digitale-maegler",
+  "owner": {
+    "name": "Den Digitale Mægler · sVision"
+  },
+  "description": "Content-systemet fra Den Digitale Mægler (kun for kursister).",
+  "plugins": [
+    {
+      "name": "ddm-mac",
+      "description": "Content-systemet til Mac. Start med /ddm-mac:start.",
+      "source": {
+        "source": "archive",
+        "url": "https://raw.githubusercontent.com/timsahlberg/dd-filer/main/ddm-mac-1.0.0.zip",
+        "sha256": "f764827d3e108f1409bde268b4a3028dbb1d684187dee417bb22025c07031f1c"
+      }
+    },
+    {
+      "name": "ddm-windows",
+      "description": "Content-systemet til Windows. Start med /ddm-windows:start.",
+      "source": {
+        "source": "archive",
+        "url": "https://raw.githubusercontent.com/timsahlberg/dd-filer/main/ddm-windows-1.0.0.zip",
+        "sha256": "c299833477e1e76bb9efc75de8efa1f54bfcb4378d2a8ef4cf5c1ca51d215c6b"
+      }
+    }
+  ]
+}
